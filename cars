@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "cars_style.css">
+    <title>Porsche Россия</title>
+    <link rel="icon" type="image/png" href="https://www.autotechhampstead.com/wp-content/uploads/Porsche-Logo-PNG-Pic.png">
+</head>
+<body link="red" vlink="#cecece" alink="#ff0000" bgcolor="black">
+    <header>
+        
+        <nav>
+            <div class="logo-design">
+                <h1 class="logo">
+                    <a class = "logo" href = "#">
+                        <img src="https://www.autotechhampstead.com/wp-content/uploads/Porsche-Logo-PNG-Pic.png" width="12%" length = "12%">
+                    </a>
+                </h1>
+            </div>
+          <ul>
+            <a class = "ul" href="#">Продукты</a>
+            <a class = "ul" href="#">Дилеры</a>
+            <a class = "ul" href="#">My Porcshe</a>
+            <a class = "ul" href="#">О Компании</a>
+            <a class = "ul" href="#">Контакты</a>
+         </ul>
+        </nav>
+    </header>
+    <article>
+        <section>
+            <div class="content-container">
+                <div class="text-container">
+                    <h1>Модели <span class = "porsche1">718</span></h1>
+                    <p class="k">
+                        Гоночный автомобиль, разработанный конструкторским бюро Porsche в рамках проекта-718 (двухместный открытый гоночный автомобиль с центрально расположенным 4-цилиндровым двигателем для кольцевых гонок на выносливость), на замену модели тип-550. Выпускался с 1957 по 1962 год.
+                    </p>
+                </div>
+                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/718.jpg" alt="Porsche_718"></a>
+            </div>
+        </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class="text-container">
+                            <h2>
+                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="text-container">
+                    <h1>Модели <span class = "porsche1">911</span></h1>
+                    <p class="k">
+                        Спортивный автомобиль в кузове двухдверное купе или кабриолет на его основе, в разных поколениях производящегося с 1964 года по наши дни.
+                        Индекс 911 изначально не планировался для вневременного обозначения разных поколений одного автомобиля, и был не более чем одним из множества подобных в сквозной трёхзначной внутризаводской нумерации всех моделей Porsche, присвоенным вполне конкретной модели 1964 года. Но в дальнейшем, по причине рыночного успеха первой модели, компанией Porsche было сделано исключение, и индекс стал именем собственным, только цифровым. Индекс стал обозначать двухдверную четырёхместную машину с кузовом купе, сконструированную в редко применяемой в мировом автопроме концепции — оппозитный шестицилиндровый мотор позади задней оси.
+                    </p>
+                </div>
+                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/911.jpg" alt="Porsche_911"></a>
+            </div>
+        </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class="text-container">
+                            <h2>
+                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="text-container">
+                    <h1>Модели <span class = "porsche1">Taycan</span></h1>
+                    <p class="k">
+                        Полностью электрическое 4-дверное купе. Это первый полноценный электромобиль Porsche. В июне 2018 года на церемонии «70 лет спортивным автомобилям» Porsche объявили, что серийный автомобиль проекта Mission E будет называться Porsche Taycan, что переводится с турецкого языка как «быстрый молодой конь»; это отсылка к жеребцу на фоне герба Штутгарта с эмблемы Porsche. Автомобиль построен на новой платформе J1 совместно с Audi e-tron GT
+                    </p>
+                </div>
+                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/taycan.jpg" alt="Porsche_taycan"></a>
+            </div>
+        </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class="text-container">
+                            <h2>
+                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="text-container">
+                    <h1>Модели <span class = "porsche1">Panamera</span></h1>
+                    <p class="k">
+                        Пятидверный спортивный фастбэк класса Гран Туризмо с переднемоторной компоновкой и полным или задним приводом.Выпуск и продажи автомобиля начались в 2009 году. Автомобиль получил имя Panamera благодаря удачным выступлениям Porsche в гонке Каррера Панамерикана, проходившей в 50-х годах XX века. Летом 2013 года Panamera пережила модернизацию, освежились ходовые и задние огни, появились улучшения в салоне.
+                    </p>
+                </div>
+                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/panamera.jpg" alt="Porsche_panamera"></a>
+            </div>
+        </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class="text-container">
+                            <h2>
+                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="text-container">
+                    <h1>Модели <span class = "porsche1">Macan</span></h1>
+                    <p class="k">
+                        Компактный кроссовер немецкой автомобилестроительной компании Porsche, созданный на базе Audi Q5, был представлен 20 ноября 2013 года на Автосалоне в Лос-Анджелесе. Спортивный автомобиль, который является повседневным, но ни в коем случае не будничным. С 5-ю дверями и 5-ю сиденьями. Достаточно вместительный для хобби, досуга и спорта.
+                    </p>
+                </div>
+                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/macan.jpg" alt="Porsche_macan"></a>
+            </div>
+        </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class="text-container">
+                            <h2> 
+                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="text-container">
+                    <h1>Модели <span class = "porsche1">Cayenne</span></h1>
+                    <p class="k">
+                        Пятиместный среднеразмерный спортивный кроссовер производства немецкой автомобилестроительной компании Porsche. Автомобиль создан при активном участии концерна Volkswagen. Впервые был представлен публике в декабре 2002 года. Производство и реализация первого поколения (Type 955/9PA) началось в 2003 году, в Северной Америке. Название модели, Cayenne, образовано по имени столицы Французской Гвианы.
+                    </p>
+                </div>
+                <a href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/cayenne.jpg" alt="Porsche_cayenne" length = "90%" width = "90%"></a>
+            </div>
+        </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class="text-container">
+                            <h2>
+                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <section>
+            <div class = "password-text">
+                <center>
+                    <h2>
+                       My Porcshe Аккаунт<br>
+                   </h2>
+               </center>
+            </div>
+        </section>
+        <section>
+            <div class = "text-container">
+                    <form action = "" method = "get">
+                        <p>
+                            <label for = "login">Введите логин: </label>
+                            <input type = "text" name = "login" id = "login" required>
+                        </p>
+                        <p>
+                            <label for = "pass">Введите пароль: </label>
+                            <input type = "pass" name = "pass" id = "pass" required>
+                        </p>
+                        <button type = "submit">Enter</button>
+                    </form>
+            </div>
+        </section>
+    </article>
+    <footer>      
+        <p>© 2022 Dr. Ing. h.c. F. Porsche AG</p>
+    </footer>
+</body>
+</html>
