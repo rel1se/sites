@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    color:aliceblue;
+}
+header {
+    background: rgb(167, 162, 162);
+    box-shadow: 0 4px 120px rgba(0,0,0,.2);
+    position:relative;
+}
+nav {
+    max-width:100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+.logo-design {
+    float: left;
+    margin-left: 70px;
+} 
+.logo {
+    display: flex;
+    margin: 0;
+    transition: all 1s ease;
+    justify-content: center;
+}  
+.logo:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+ul {
+    font-family: 'Helvetica';
+    display: flex;
+    margin: 0;
+    margin-right: 237px;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    margin: 10 140px;
+    font-size: 20px;
+    font-weight: 200;
+}
+a.ul{
+    font-weight: 900;
+    text-decoration: none;
+    padding: 0 40px;
+    position: right;
+    box-sizing: border-box;
+    color:aliceblue;
+    background: rgb(167, 162, 162);
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+a.ul:hover {
+    background: rgb(167, 162, 162);
+    color: #a50d0db7;
+    box-shadow: inset 0 0 0 3px #a50d0db7;
+}
+.content-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    position: sticky;
+}
+.text-container{
+    color:rgb(0, 0, 0);
+    width: 40%;
+    text-align: center
+}
+.main_links{
+    width: 200px;
+    length: 200px;
+    border-radius: 5%;
+    font-family: 'Oswald';
+    text-decoration: none;
+    font-style: normal;
+}
+.main_links:hover{
+    color: rgb(167, 162, 162);
+}
+.porsche1 {
+    font-family: 'Helvetica';
+    font-size: 150%;
+    color:#a50d0db7;
+}
+h1{
+    font-family: 'Helvetica';
+    font-size: 150%;
+}
+.img{
+    display: flex;
+    margin: 0;
+    transition: all 1s ease;
+    justify-content: center;
+} 
+/*.img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}*/
+.main_links:hover{
+    color: #a50d0db7;
+
+}
+footer{
+    font-weight: 900;
+    background-color: rgb(167, 162, 162);
+    color: white;
+    position:sticky;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.2); 
+    font-family: 'Oswald';
+}
+.info_cars{
+    background-color: rgb(167, 162, 162);
+    height: 100px;
+}
+.password-text{
+    color:rgb(0, 0, 0);
+    text-align: center
+}
