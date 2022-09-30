@@ -44,9 +44,9 @@
             <nav>
                 <center>
                     <address>
-                        <div class="text-container">
+                        <div class = "link-container">
                             <h2>
-                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a>
                             </h2>
                         </div>
                     </address>
@@ -69,9 +69,9 @@
             <nav>
                 <center>
                     <address>
-                        <div class="text-container">
+                        <div class = "link-container">
                             <h2>
-                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=911">Выбрать комплектацию машины</a><br>
                             </h2>
                         </div>
                     </address>
@@ -93,9 +93,9 @@
             <nav>
                 <center>
                     <address>
-                        <div class="text-container">
+                        <div class = "link-container">
                             <h2>
-                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=taycan">Выбрать комплектацию машины</a><br>
                             </h2>
                         </div>
                     </address>
@@ -106,7 +106,7 @@
             <div class="content-container">
                 <div class="text-container">
                     <h1>Модели <span class = "porsche1">Panamera</span></h1>
-                    <p class="k">
+                    <p>
                         Пятидверный спортивный фастбэк класса Гран Туризмо с переднемоторной компоновкой и полным или задним приводом.Выпуск и продажи автомобиля начались в 2009 году. Автомобиль получил имя Panamera благодаря удачным выступлениям Porsche в гонке Каррера Панамерикана, проходившей в 50-х годах XX века. Летом 2013 года Panamera пережила модернизацию, освежились ходовые и задние огни, появились улучшения в салоне.
                     </p>
                 </div>
@@ -117,9 +117,9 @@
             <nav>
                 <center>
                     <address>
-                        <div class="text-container">
+                        <div class = "link-container">
                             <h2>
-                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                                <a class = "main_links"href="https://www.porsche.com/russia/modelstart/all/?modelrange=panamera">Выбрать комплектацию машины</a><br>
                             </h2>
                         </div>
                     </address>
@@ -130,7 +130,7 @@
             <div class="content-container">
                 <div class="text-container">
                     <h1>Модели <span class = "porsche1">Macan</span></h1>
-                    <p class="k">
+                    <p>
                         Компактный кроссовер немецкой автомобилестроительной компании Porsche, созданный на базе Audi Q5, был представлен 20 ноября 2013 года на Автосалоне в Лос-Анджелесе. Спортивный автомобиль, который является повседневным, но ни в коем случае не будничным. С 5-ю дверями и 5-ю сиденьями. Достаточно вместительный для хобби, досуга и спорта.
                     </p>
                 </div>
@@ -141,9 +141,9 @@
             <nav>
                 <center>
                     <address>
-                        <div class="text-container">
+                        <div class = "link-container">
                             <h2> 
-                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=macan">Выбрать комплектацию машины</a><br>
                             </h2>
                         </div>
                     </address>
@@ -165,9 +165,9 @@
             <nav>
                 <center>
                     <address>
-                        <div class="text-container">
+                        <div class = "link-container">
                             <h2>
-                                <a class = "main_links" link = rgba(0,0,0,.2) href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a><br>
+                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=cayenne">Выбрать комплектацию машины</a><br>
                             </h2>
                         </div>
                     </address>
@@ -175,32 +175,49 @@
             </nav>
         </section>
         <section>
-            <div class = "password-text">
-                <center>
+            <form action="action_page.php">
+                <div class="container">
+                    <h1>Получите свой Porsche ID</h1>
+                    <p>Станьте частью семьи Porsche и создайте свой Porsche ID.</p>
+                    <p> Ваш ключ к цифровым сервисам и функциям Porsche.</p>
+                    <hr>
+                    <label for = "appeal"><b>Обращение</b></label>
+                        <select name="appeal" required>
+                            <option value = "male">Г-н</option>
+                            <option value = "female">Г-жа</option>
+                        </select><br>
+                    <label for="email"><b>Email</b></label>
+                    <input tabindex = 1 type="text" placeholder="Введите Email" name="email" required>
+                    <label for="psw"><b>Пароль</b></label>
+                    <input tabindex = 2 type="password" placeholder="Введите пароль" name="psw" required>
+                    <label for="psw-repeat"><b>Повторите пароль</b></label>
+                    <input tabindex = 3 type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+                    <label for = "date"><b>Дата рождения</b></label>
+                    <input tabindex = 4 type = "date" name = "date">
+                    <label for="input-file"><b>Вставьте фото</b></label>
+                    <input tabindex = 5 type="file" name="file">
+                    <hr>
+                    <input checked type = "checkbox" tabindex = 6 name = "comm_conditions" value = "comm_conditions"> Я ознакомился(-лась) с <a href ="https://connect-store2.porsche.com/ru/ru/t/termsandconditions?reducedHeaderFooter=true">Общими коммерческими условиями</a> и согласен с ними.<br>
+                    <input checked type = "checkbox" tabindex = 7 name = "confidence" value="confidence"> Я ознакомился(-лась) с <a href ="https://connect-store2.porsche.com/ru/ru/t/privacy?reducedHeaderFooter=true">заявлением о конфиденциальности .</a>
+                    <button type="submit" class="registerbtn">Создать новую учетную запись Porcshe ID</button>
+                    <textarea placeholder="Оставить отзыв по работе сайта" cols="101" rows="5"></textarea>
+                    <button type="submit" class="feedbackbtn">Отправить отзыв</button>
+                </div>
+            </form>
+        </section>
+        <section class = "info_cars">
+            <center>
+                <div class = "link-container">
                     <h2>
-                       My Porcshe Аккаунт<br>
-                   </h2>
-               </center>
-            </div>
+                        <label>Оригинальный сайт Porsche</label>
+                    </h2>
+                </div>
+            </center>
         </section>
-        <section>
-            <div class = "text-container">
-                    <form action = "" method = "get">
-                        <p>
-                            <label for = "login">Введите логин: </label>
-                            <input type = "text" name = "login" id = "login" required>
-                        </p>
-                        <p>
-                            <label for = "pass">Введите пароль: </label>
-                            <input type = "pass" name = "pass" id = "pass" required>
-                        </p>
-                        <button type = "submit">Enter</button>
-                    </form>
-            </div>
-        </section>
+        <iframe src ="https://www.porsche-asc.ru/cars/spo/" title = "orig" width = "1900" height="600"></iframe>
     </article>
     <footer>      
-        <p>© 2022 Dr. Ing. h.c. F. Porsche AG</p>
+        <p>© 2022 rel1se</p>
     </footer>
 </body>
 </html>
