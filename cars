@@ -205,6 +205,22 @@
                 </div>
             </form>
         </section>
+        <div class = "wrapper">
+            <div class = "items">
+                <div class = "items_container">
+                    <div class = "items_body">
+                        <div class = "item">
+                            <div class = "item_video">
+                                <video preload = "metadata" loop muted controls class = "video_item" src = "911_GT3RS.mp4" poster = "poster_hq.jpg">
+                                    <source src = "911_GT3RS.webm" type = "video/webm">
+                                    <source src = "911_GT3RS.mp4" type = "video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class = "info_cars">
             <center>
                 <div class = "link-container">
