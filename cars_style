@@ -109,6 +109,7 @@ a.main_links{
     align-items: center;
     justify-content: center;
     position: static;
+    margin: 10 140px;
 }
 .text-container{
     color:rgb(0, 0, 0);
@@ -229,4 +230,39 @@ a{
     color: #a50d0db7;
     font-size: 1.2em;
     font-style: italic;
+}
+.video{
+
+}
+.video_item{
+    width: 400px
+}
+.items{
+
+}
+.items_container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.items_body{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(290px 1fr));
+}
+.item{
+
+}
+.item_video{
+    position: relative;
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 57% 0px;
+}
+.item_video video{
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
