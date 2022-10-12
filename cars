@@ -9,25 +9,24 @@
     <link rel="icon" type="image/png" href="https://www.autotechhampstead.com/wp-content/uploads/Porsche-Logo-PNG-Pic.png">
 </head>
 <body link="red" vlink="#cecece" alink="#ff0000" bgcolor="black">
-    <header>
-        
-        <nav>
-            <div class="logo-design">
-                <h1 class="logo">
-                    <a class = "logo" href = "#">
-                        <img src="https://www.autotechhampstead.com/wp-content/uploads/Porsche-Logo-PNG-Pic.png" width="12%" length = "12%">
-                    </a>
-                </h1>
-            </div>
-          <ul>
-            <a class = "ul" href="#">Продукты</a>
-            <a class = "ul" href="#">Дилеры</a>
-            <a class = "ul" href="#">My Porcshe</a>
-            <a class = "ul" href="#">О Компании</a>
-            <a class = "ul" href="#">Контакты</a>
-         </ul>
-        </nav>
-    </header>
+    <section class="top-nav">
+        <div class="logo-design">
+            <a class = "logo" href = "#">
+                <img src="https://www.pngkey.com/png/full/237-2374423_logo-png-transparent-svg-porsche-911-logo-vector.png">
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li>Продукты</li>
+          <li>Дилеры</li>
+          <li>My Porcshe</li>
+          <li>О Компании</li>
+          <li>Контакты</li>
+        </ul>
+      </section>
     <article>
         <section>
             <div class="content-container">
@@ -174,6 +173,29 @@
                 </center>
             </nav>
         </section>
+        <section class = "info_cars">
+            <nav>
+                <center>
+                    <address>
+                        <div class = "link-container">
+                            <h2>
+                                <a class = "main_links" href="https://www.porsche-russland.ru/pdc/events/gallery/#top">Posrche Gallery</a><br>
+                            </h2>
+                        </div>
+                    </address>
+                </center>
+            </nav>
+        </section>
+        <div class="section_gallery gallery">
+            <div class="gallery_flex">
+              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223855.jpg" alt="1"/></div>
+              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223857.jpg" alt="2"/></div>
+              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223841.jpg" alt="3"/></div>
+              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223928.jpg" alt="4"/></div>
+              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223941.jpg" alt="5"/></div>
+              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223940.jpg" alt="6"/></div>
+            </div>
+        </div>
         <section>
             <form action="action_page.php">
                 <div class="container">
@@ -205,7 +227,7 @@
                 </div>
             </form>
         </section>
-        <div class = "wrapper">
+        <!--<div class = "wrapper">
             <div class = "items">
                 <div class = "items_container">
                     <div class = "items_body">
@@ -220,17 +242,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <section class = "info_cars">
-            <center>
-                <div class = "link-container">
-                    <h2>
-                        <label>Оригинальный сайт Porsche</label>
-                    </h2>
-                </div>
-            </center>
-        </section>
-        <iframe src ="https://www.porsche-asc.ru/cars/spo/" title = "orig" width = "1900" height="600"></iframe>
+        </div>> -->
+        
     </article>
     <footer>      
         <p>© 2022 rel1se</p>
