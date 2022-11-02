@@ -4,249 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "cars_style.css">
-    <title>Porsche Россия</title>
+    <link rel = "stylesheet" href = "grid.css">
+    <title>Галерея Porsche</title>
     <link rel="icon" type="image/png" href="https://www.autotechhampstead.com/wp-content/uploads/Porsche-Logo-PNG-Pic.png">
 </head>
-<body link="red" vlink="#cecece" alink="#ff0000" bgcolor="black">
-    <section class="top-nav">
-        <div class="logo-design">
-            <a class = "logo" href = "#">
-                <img src="https://www.pngkey.com/png/full/237-2374423_logo-png-transparent-svg-porsche-911-logo-vector.png">
-            </a>
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-        </label>
-        <ul class="menu">
-          <li>Продукты</li>
-          <li>Дилеры</li>
-          <li>My Porcshe</li>
-          <li>О Компании</li>
-          <li>Контакты</li>
-        </ul>
-      </section>
-    <article>
-        <section>
-            <div class="content-container">
-                <div class="text-container">
-                    <h1>Модели <span class = "porsche1">718</span></h1>
-                    <p class="k">
-                        Гоночный автомобиль, разработанный конструкторским бюро Porsche в рамках проекта-718 (двухместный открытый гоночный автомобиль с центрально расположенным 4-цилиндровым двигателем для кольцевых гонок на выносливость), на замену модели тип-550. Выпускался с 1957 по 1962 год.
-                    </p>
-                </div>
-                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/718.jpg" alt="Porsche_718"></a>
-            </div>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2>
-                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=718">Выбрать комплектацию машины</a>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <section>
-            <div class="content-container">
-                <div class="text-container">
-                    <h1>Модели <span class = "porsche1">911</span></h1>
-                    <p class="k">
-                        Спортивный автомобиль в кузове двухдверное купе или кабриолет на его основе, в разных поколениях производящегося с 1964 года по наши дни.
-                        Индекс 911 изначально не планировался для вневременного обозначения разных поколений одного автомобиля, и был не более чем одним из множества подобных в сквозной трёхзначной внутризаводской нумерации всех моделей Porsche, присвоенным вполне конкретной модели 1964 года. Но в дальнейшем, по причине рыночного успеха первой модели, компанией Porsche было сделано исключение, и индекс стал именем собственным, только цифровым. Индекс стал обозначать двухдверную четырёхместную машину с кузовом купе, сконструированную в редко применяемой в мировом автопроме концепции — оппозитный шестицилиндровый мотор позади задней оси.
-                    </p>
-                </div>
-                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/911.jpg" alt="Porsche_911"></a>
-            </div>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2>
-                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=911">Выбрать комплектацию машины</a><br>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <section>
-            <div class="content-container">
-                <div class="text-container">
-                    <h1>Модели <span class = "porsche1">Taycan</span></h1>
-                    <p class="k">
-                        Полностью электрическое 4-дверное купе. Это первый полноценный электромобиль Porsche. В июне 2018 года на церемонии «70 лет спортивным автомобилям» Porsche объявили, что серийный автомобиль проекта Mission E будет называться Porsche Taycan, что переводится с турецкого языка как «быстрый молодой конь»; это отсылка к жеребцу на фоне герба Штутгарта с эмблемы Porsche. Автомобиль построен на новой платформе J1 совместно с Audi e-tron GT
-                    </p>
-                </div>
-                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/taycan.jpg" alt="Porsche_taycan"></a>
-            </div>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2>
-                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=taycan">Выбрать комплектацию машины</a><br>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <section>
-            <div class="content-container">
-                <div class="text-container">
-                    <h1>Модели <span class = "porsche1">Panamera</span></h1>
-                    <p>
-                        Пятидверный спортивный фастбэк класса Гран Туризмо с переднемоторной компоновкой и полным или задним приводом.Выпуск и продажи автомобиля начались в 2009 году. Автомобиль получил имя Panamera благодаря удачным выступлениям Porsche в гонке Каррера Панамерикана, проходившей в 50-х годах XX века. Летом 2013 года Panamera пережила модернизацию, освежились ходовые и задние огни, появились улучшения в салоне.
-                    </p>
-                </div>
-                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/panamera.jpg" alt="Porsche_panamera"></a>
-            </div>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2>
-                                <a class = "main_links"href="https://www.porsche.com/russia/modelstart/all/?modelrange=panamera">Выбрать комплектацию машины</a><br>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <section>
-            <div class="content-container">
-                <div class="text-container">
-                    <h1>Модели <span class = "porsche1">Macan</span></h1>
-                    <p>
-                        Компактный кроссовер немецкой автомобилестроительной компании Porsche, созданный на базе Audi Q5, был представлен 20 ноября 2013 года на Автосалоне в Лос-Анджелесе. Спортивный автомобиль, который является повседневным, но ни в коем случае не будничным. С 5-ю дверями и 5-ю сиденьями. Достаточно вместительный для хобби, досуга и спорта.
-                    </p>
-                </div>
-                <a class = "img" href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/macan.jpg" alt="Porsche_macan"></a>
-            </div>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2> 
-                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=macan">Выбрать комплектацию машины</a><br>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <section>
-            <div class="content-container">
-                <div class="text-container">
-                    <h1>Модели <span class = "porsche1">Cayenne</span></h1>
-                    <p class="k">
-                        Пятиместный среднеразмерный спортивный кроссовер производства немецкой автомобилестроительной компании Porsche. Автомобиль создан при активном участии концерна Volkswagen. Впервые был представлен публике в декабре 2002 года. Производство и реализация первого поколения (Type 955/9PA) началось в 2003 году, в Северной Америке. Название модели, Cayenne, образовано по имени столицы Французской Гвианы.
-                    </p>
-                </div>
-                <a href = "#"><img src="https://nav.porsche.com/00BC524/frontshot-assets/1920/cayenne.jpg" alt="Porsche_cayenne" length = "90%" width = "90%"></a>
-            </div>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2>
-                                <a class = "main_links" href="https://www.porsche.com/russia/modelstart/all/?modelrange=cayenne">Выбрать комплектацию машины</a><br>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <section class = "info_cars">
-            <nav>
-                <center>
-                    <address>
-                        <div class = "link-container">
-                            <h2>
-                                <a class = "main_links" href="https://www.porsche-russland.ru/pdc/events/gallery/#top">Posrche Gallery</a><br>
-                            </h2>
-                        </div>
-                    </address>
-                </center>
-            </nav>
-        </section>
-        <div class="section_gallery gallery">
-            <div class="gallery_flex">
-              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223855.jpg" alt="1"/></div>
-              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223857.jpg" alt="2"/></div>
-              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223841.jpg" alt="3"/></div>
-              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223928.jpg" alt="4"/></div>
-              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223941.jpg" alt="5"/></div>
-              <div class="gallery_item"><img src="https://www.porsche-russland.ru/files/gallery/223839/photo223940.jpg" alt="6"/></div>
-            </div>
-        </div>
-        <section>
-            <form action="action_page.php">
-                <div class="container">
-                    <h1>Получите свой Porsche ID</h1>
-                    <p>Станьте частью семьи Porsche и создайте свой Porsche ID.</p>
-                    <p> Ваш ключ к цифровым сервисам и функциям Porsche.</p>
-                    <hr>
-                    <label for = "appeal"><b>Обращение</b></label>
-                        <select name="appeal" required>
-                            <option value = "male">Г-н</option>
-                            <option value = "female">Г-жа</option>
-                        </select><br>
-                    <label for="email"><b>Email</b></label>
-                    <input tabindex = 1 type="text" placeholder="Введите Email" name="email" required>
-                    <label for="psw"><b>Пароль</b></label>
-                    <input tabindex = 2 type="password" placeholder="Введите пароль" name="psw" required>
-                    <label for="psw-repeat"><b>Повторите пароль</b></label>
-                    <input tabindex = 3 type="password" placeholder="Повторите пароль" name="psw-repeat" required>
-                    <label for = "date"><b>Дата рождения</b></label>
-                    <input tabindex = 4 type = "date" name = "date">
-                    <label for="input-file"><b>Вставьте фото</b></label>
-                    <input tabindex = 5 type="file" name="file">
-                    <hr>
-                    <input checked type = "checkbox" tabindex = 6 name = "comm_conditions" value = "comm_conditions"> Я ознакомился(-лась) с <a href ="https://connect-store2.porsche.com/ru/ru/t/termsandconditions?reducedHeaderFooter=true">Общими коммерческими условиями</a> и согласен с ними.<br>
-                    <input checked type = "checkbox" tabindex = 7 name = "confidence" value="confidence"> Я ознакомился(-лась) с <a href ="https://connect-store2.porsche.com/ru/ru/t/privacy?reducedHeaderFooter=true">заявлением о конфиденциальности .</a>
-                    <button type="submit" class="registerbtn">Создать новую учетную запись Porcshe ID</button>
-                    <textarea placeholder="Оставить отзыв по работе сайта" cols="101" rows="5"></textarea>
-                    <button type="submit" class="feedbackbtn">Отправить отзыв</button>
-                </div>
-            </form>
-        </section>
-        <!--<div class = "wrapper">
-            <div class = "items">
-                <div class = "items_container">
-                    <div class = "items_body">
-                        <div class = "item">
-                            <div class = "item_video">
-                                <video preload = "metadata" loop muted controls class = "video_item" src = "911_GT3RS.mp4" poster = "poster_hq.jpg">
-                                    <source src = "911_GT3RS.webm" type = "video/webm">
-                                    <source src = "911_GT3RS.mp4" type = "video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>> -->
+<body>
+    <header class = "header">
+        <h1>Header</h1>
+    </header>
+    <nav class = "navigation">
         
-    </article>
-    <footer>      
-        <p>© 2022 rel1se</p>
+    </nav>
+    <main class = "main">
+        <h1 class = "gallery_label">Porshe Gallery</h1>
+        <div class="gallery">
+            <div class = "gallery__item gallery__item__1">
+                <div class = "gallery__text">
+
+                </div>
+                <img class = "gallery_img" src = "" alt = "1">
+            </div>
+            <div class = "gallery__item gallery__item__2">
+                <div class = "gallery__text">
+                    
+                </div>
+                <img class = "gallery_img" src = "" alt = "2">
+            </div>
+            <div class = "gallery__item gallery__item__3">
+                <div class = "gallery__text">
+                    
+                </div>
+                <img class = "gallery_img" src = "" alt = "3">
+
+            </div>
+            <div class = "gallery__item gallery__item__4">
+                <div class = "gallery__text">
+                    
+                </div>
+                <img class = "gallery_img" src = "" alt = "4">
+            </div>
+            <div class = "gallery__item gallery__item__5">
+                <div class = "gallery__text">
+                    
+                </div>
+                <img class = "gallery_img" src = "" alt = "5">
+            </div>
+            <div class = "gallery__item gallery__item__6">
+                <div class = "gallery__text">
+                    
+                </div>
+                <img class = "gallery_img" src = "" alt = "6">
+            </div>
+            <div class = "gallery__item gallery__item__7">
+                <div class = "gallery__text">
+                    
+                </div>
+                <img class = "gallery_img" src = "" alt = "7">
+            </div>
+        </div>
+    </main>
+    <div class="conatainer__form">
+
+    </div>
+    <aside class = "sidebar">
+
+    </aside>
+    <aside class = "ads">
+
+    </aside>
+    <footer class = "footer">
+        <div class="container__footer">
+
+        </div>
+        <div class="container__footer">
+            
+        </div>
+        <div class="container__footer">
+            
+        </div>
     </footer>
 </body>
 </html>
