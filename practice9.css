@@ -1,0 +1,78 @@
+body {
+    box-shadow: 0;
+    background-color: rgb(105, 105, 105);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+._container {
+    margin: 400px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+._button {
+    width: 10rem;
+    height: 5rem;
+    background-color:darkgrey;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+._button2 {
+    width: 10rem;
+    height: 5rem;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.fa-heart {
+    color: azure;
+    font-size: 2.5rem;
+}
+
+.fa-house {
+    color: rgb(167, 167, 167);
+    font-size: 3rem;
+}
+
+.count {
+    font-size: 3rem;
+    color: red;
+    
+}
+
+.fa-ghost {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.container__create{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.create__buttons{
+    display: inline-block;
+    width: 4rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    background-color: rgb(187, 187, 187);
+}
+
+.created__button{
+    /* top: 40px;
+    left: 40px; */
+    position: absolute;
+}
