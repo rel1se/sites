@@ -1,0 +1,42 @@
+body{
+    background: url(https://phonoteka.org/uploads/posts/2021-10/1633099230_31-phonoteka-org-p-serii-tsvet-fon-odnotonnii-krasivo-32.png);
+}
+.link{
+    color:rgb(185, 62, 62);
+}
+
+.article1{
+    color: rgb(38, 39, 39)
+}
+.team {
+    background: rgb(185, 62, 62)
+}
+.the_end{
+    width: 200px;
+    length: 200px;
+    border-radius: 5%;
+}
+.the_end:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.main{
+    font-family: "Roboto"
+    
+}
+.list_players{
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.footer{
+    length: 300px;
+    width: 300 px;
+    
+    font-family: "Times New Roman";
+}
+.img_team{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 10px;
+}
